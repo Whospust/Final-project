@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Body styles */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+}
+/* Header Styles */
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid beige;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Nav bar styles */
+nav {
+    background-color: grey;
+    padding: 10px 0;
+    position: sticky; /* Keeps the nav bar at the top when scrolling */
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Display links horizontally */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+/*Main Layout Container */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px darkgray;
+}
+
+h2 {
+    color: royalblue;
+    border-bottom: 2px solid beige;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+table {
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+/*Image Styles */
+.img {
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* Features styles*/
+.feature-card {
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: dimgray;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+}

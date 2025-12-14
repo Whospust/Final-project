@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Feedback</title>
+    <link rel="icon" type="image/x-icon" href="images/sony.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Sony Walkman TPS-L2</h1>
+    <p>We Value Your Opinion</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="feedback.html">Rate Us</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+    <h2>Rate or Add Comments</h2>
+    <p>Have you purchased a Walkman? Tell us what you think about the sound quality and portability.</p>
+
+    <form id="customerForm">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="5">5 Stars - Excellent</option>
+                <option value="4">4 Stars - Good</option>
+                <option value="3">3 Stars - Average</option>
+                <option value="2">2 Stars - Poor</option>
+                <option value="1">1 Star - Terrible</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Feedback</button>
+    </form>
+
+    <div style="margin-top: 40px;">
+        <h3>Recent Reviews</h3>
+        <blockquote>
+            "I can finally listen to my mix tapes on the subway. The sound is incredible!" - <em>John D.</em>
+        </blockquote>
+        <hr>
+        <blockquote>
+            "The hotline button is such a cool feature. A bit heavy, but worth it." - <em>Sarah M.</em>
+        </blockquote>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 1979-2025 Sony Corporation. All Rights Reserved.</p>
+    <p>Source Material: Sony History Archives</p>
+</footer>
+
+
+</body>
+</html>
